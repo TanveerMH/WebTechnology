@@ -1,0 +1,68 @@
+.column {
+    float: left;
+}
+
+.image {
+    height: 650px;
+    background: url(river_of_life.jpg);
+
+    clip-path: polygon(0 0, 0% 100%, 100% 49%);;
+    background-size: contain;
+}
+
+.left {
+    width: 40%;
+}
+
+.middle {
+    width: 300px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 170px;
+}
+.loginInput{
+    padding-left: 20px;
+    }
+.right{
+    float:right;
+    width: 25%;
+    }
+.logo{
+    float: right;
+    width: 250px;
+    height: 70px;
+}
+.footer{
+    margin-top:650px;
+    float: right;
+    text-decoration:none;
+}
+.footerStyle{
+    color:  #0ba89a;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.buttons{
+    width: 200px;
+    height: 20px;
+    margin: 3px;
+}
+h3{
+    border-bottom: 2px solid green;
+    overflow: hidden;
+    padding-left: 2px;
+    width: 50px;
+    line-height: 25px;
+  }
+
+.downloadLink{
+    margin-top: 40px;
+    text-decoration: none;
+
+}
+.link{
+    color: #b90d29;
+    text-decoration:underline;
+
+}

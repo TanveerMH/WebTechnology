@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>What is jQuery?</h1>
+
+    <p>jjQuery is a fast , small , and feature-rich JavaScript library</p>
+    <a href="#">More</a>
+    <p class="p2">It makes things like HTML document traversal and manipulation, event handling,
+animation, and Ajax much simpler with an easy-to-use API that works across a
+multitude of browsers. </p>
+
+<script type="text/javascript">
+
+  $(document).ready(function(){
+    $('a').click(function(){
+      $('.p2').toggle();
+    });
+  });
+
+</script>
+  </body>
+</html>

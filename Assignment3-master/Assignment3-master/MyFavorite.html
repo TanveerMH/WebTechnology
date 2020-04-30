@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+      </head>
+      <body>
+
+        <h1>My favorite ptes</h1>
+
+        <ul>
+          <li>Cats</li>
+          <li id="fish">Goldfish</li>
+          <li>Lions</li>
+        </ul>
+        <a href="#">Click Me !!!</a>
+        <script type="text/javascript">
+        $(document).ready(function(){
+        $('a').click(function(){
+          $('#fish').css('color','#E2E000');
+        });
+      });
+
+    </script>
+  </body>
+</html>
